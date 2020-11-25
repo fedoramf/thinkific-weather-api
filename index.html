@@ -1,6 +1,27 @@
 <!DOCTYPE html>
-<object
-  type="text/html"
-  data="/.netlify/functions/server"
-  style="width:100%;height:100%;"
->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <title>Weather Info</title>
+</head>
+<body>
+    <div class="weather">
+        <h1>Simple Weather UI</h1>
+        <p>List of cities supported:</p>
+        <ul>
+          <li>Vancouver</li>
+          <li>San Francisco</li>
+          <li>Kyoto</li>
+          <li>New York City</li>
+          <li>London</li>
+        </ul>
+        <!-- <div id="setup" class="bubble"></div> -->
+        <p>Please enter city name below to get weather data:</p>
+        <input type="text" id="cityName">
+        <button id="weatherBtn">Get weather data</button>
+        <p>Weather API JSON:</p>
+        <div id="weatherInfo"></div>
+    </div>
+</body>
+<script src="client.js"></script>
+</html>
