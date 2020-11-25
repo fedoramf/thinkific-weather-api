@@ -22,7 +22,7 @@ exports.data = [
     },
     {
         cityId: 2,
-        cityName: 'San Franscisco',
+        cityName: 'San Francisco',
         countryId: 2,
         countryName: 'USA',
         geoLocation: {
