@@ -1,5 +1,4 @@
 # netlify.toml
 [build]
   command = "npm install && npm run build"
-  functions = "lambda" #  netlify-lambda reads this
-  publish = "build"
+  functions = "functions" #  netlify-lambda reads this
